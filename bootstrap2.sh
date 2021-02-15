@@ -7,4 +7,3 @@ git clone https://github.com/chipswmd/epam.practice.git task2dir
 cd task2dir
 git checkout task2
 cat bootstrap2.sh
-ping vm1
