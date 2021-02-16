@@ -1,3 +1,9 @@
 # epam.practice task2
-Vagrantfile создает несколько машин с именами VM1..VMx, количество указываем в переменной VMs_Count и адресами 10.0.2.15..и так далее.
-скрипты инициализации каждой машины в файлах bootstrap1.sh итд 
+Vagrantfile creates several machines named VM1..VMx, the number is specified in the variable VMs_Count and addresses 10.0.2.15..and so on. Initialization scripts for each machine in bootstrap1.sh files, etc.
+## Preparetion
+Change the variable VMs_Count to the number of VMs.
+Create bootstrap.sh files by Vms count.
+## Installation
+Copy all to vagrant dir.
+## Usage
+vagarant up
