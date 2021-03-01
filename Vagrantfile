@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/bionic64"
-  config.vm.define "vm_httpd" do |vm|
-	vm.vm.hostname = "vm_httpd"
+  config.vm.define "httpd" do |vm|
+	vm.vm.hostname = "httpd"
 	vm.vm.network "private_network", ip: "10.0.2.14"
 	vm.vm.provision :shell, path: "bootstrap.sh"
     end
