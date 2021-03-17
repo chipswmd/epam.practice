@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     config.vm.define "vm#{i}" do |vm|
 	vm.vm.hostname = "vm#{i}"
 	vm.vm.network "private_network", ip: "10.0.2.#{i+14}"
-	vm.vm.provision :shell, path: "bootstrap#{i}.sh"
+	vm.vm.provision :shell, path: "bootstrap1.sh"
     end
   end
 end
